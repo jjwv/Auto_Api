@@ -1,0 +1,521 @@
+2018-03-16 10:41:22,469 Compare_param.py[line:133] ERROR eval() arg 1 must be a string, bytes or code object
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Compare_param.py", line 110, in Compare_params_complete
+    list_params_to_compare=eval(self.params_to_compare)#数据库表unicode编码数据转换成员列
+TypeError: eval() arg 1 must be a string, bytes or code object
+2018-03-16 10:41:22,477 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:22,849 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/index?tid=0&option=0&limit=3 HTTP/1.1" 200 None
+2018-03-16 10:41:22,861 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-03-16 10:41:23,639 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/web/1.0/topic/get_reply_list?pid=1222942&get_reply_list=1 HTTP/1.1" 200 None
+2018-03-16 10:41:23,646 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:23,730 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/topic/get_lord_reply_list?tid=6220991 HTTP/1.1" 200 None
+2018-03-16 10:41:23,737 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:23,939 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/detail?tid=6220991 HTTP/1.1" 200 None
+2018-03-16 10:41:23,945 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:24,113 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/topic/unread?tid=123 HTTP/1.1" 200 67
+2018-03-16 10:41:24,119 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:24,300 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/get_list_info?tids=118,120 HTTP/1.1" 200 None
+2018-03-16 10:41:24,306 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:24,475 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_topics/get_list HTTP/1.1" 200 None
+2018-03-16 10:41:24,481 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:24,650 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_replies/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-03-16 10:41:24,658 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:24,841 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_all/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-03-16 10:41:24,847 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:25,171 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_history/clean HTTP/1.1" 200 None
+2018-03-16 10:41:25,177 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:25,373 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/get_list?type=1&start=0&limit=15 HTTP/1.1" 200 None
+2018-03-16 10:41:25,381 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:25,578 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/relation_info HTTP/1.1" 200 None
+2018-03-16 10:41:25,584 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:25,817 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
+2018-03-16 10:41:25,823 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:26,007 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/topic/like HTTP/1.1" 200 None
+2018-03-16 10:41:26,013 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:26,192 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/delete HTTP/1.1" 200 None
+2018-03-16 10:41:26,199 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:26,374 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/banned HTTP/1.1" 200 None
+2018-03-16 10:41:26,382 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:26,561 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/report HTTP/1.1" 200 None
+2018-03-16 10:41:26,570 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:26,740 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/shield HTTP/1.1" 200 None
+2018-03-16 10:41:26,774 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:26,857 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/topic/see_all?tid=6275456 HTTP/1.1" 200 None
+2018-03-16 10:41:26,863 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-03-16 10:41:26,984 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/ios/7.3.0/topic/get_home_xds HTTP/1.1" 200 None
+2018-03-16 10:41:26,991 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:27,697 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
+2018-03-16 10:41:27,705 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:27,871 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/image/thumb HTTP/1.1" 200 None
+2018-03-16 10:41:27,880 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:28,055 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/1.0/category/ls HTTP/1.1" 200 None
+2018-03-16 10:41:28,062 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:28,420 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/get_topics?start=0&limit=3 HTTP/1.1" 200 None
+2018-03-16 10:41:28,428 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:28,597 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/web/1.0/category/post_topic HTTP/1.1" 200 None
+2018-03-16 10:41:28,603 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-03-16 10:41:28,792 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/topic_categories?tid=2 HTTP/1.1" 200 None
+2018-03-16 10:41:28,799 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,042 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/category/home HTTP/1.1" 200 None
+2018-03-16 10:41:29,051 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,144 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/notices/gets?start=0&limit=20 HTTP/1.1" 200 None
+2018-03-16 10:41:29,151 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,243 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/notices/delete?tid=6275582&is_all=0tid=6275582&is_all=0 HTTP/1.1" 200 None
+2018-03-16 10:41:29,250 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,340 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/statistics?month=201612 HTTP/1.1" 200 None
+2018-03-16 10:41:29,349 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,434 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/ios/7.3.0/subject/info?sid=478 HTTP/1.1" 200 None
+2018-03-16 10:41:29,440 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,527 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/sub_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-03-16 10:41:29,535 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,869 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/topic_list?tag_name=%E6%AE%B5%E5%AD%90 HTTP/1.1" 200 None
+2018-03-16 10:41:29,879 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:29,968 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/custom_subject_list?start=0&limit=2 HTTP/1.1" 200 None
+2018-03-16 10:41:29,976 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:30,069 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/latest HTTP/1.1" 200 None
+2018-03-16 10:41:30,076 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:30,167 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-03-16 10:41:30,173 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:30,258 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-03-16 10:41:30,265 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:30,354 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/ios/1.0/subject/history_delete HTTP/1.1" 200 None
+2018-03-16 10:41:30,361 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-03-16 10:41:31,313 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/web/1.0/search/topics?keyword=%E5%91%B5%E5%91%B5 HTTP/1.1" 200 None
+2018-03-16 10:41:31,322 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:31,417 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/tags?keyword=%E7%82%B8 HTTP/1.1" 200 None
+2018-03-16 10:41:31,423 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:31,527 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/tag_topics?tag=%E7%89%9B%E8%82%89 HTTP/1.1" 200 None
+2018-03-16 10:41:31,535 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:31,719 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/star_user?keyword=300&start=0&limit=20 HTTP/1.1" 200 None
+2018-03-16 10:41:31,726 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-03-16 10:41:31,830 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/user?keyword=1100000&start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 12:20:28,796 Compare_param.py[line:133] ERROR eval() arg 1 must be a string, bytes or code object
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Compare_param.py", line 110, in Compare_params_complete
+    list_params_to_compare=eval(self.params_to_compare)#数据库表unicode编码数据转换成员列
+TypeError: eval() arg 1 must be a string, bytes or code object
+2018-04-12 12:20:28,819 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:29,236 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/index?tid=0&option=0&limit=3 HTTP/1.1" 200 None
+2018-04-12 12:20:29,261 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:29,898 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115rc.com/api/1.0/web/1.0/topic/get_reply_list?pid=1222942&get_reply_list=1 HTTP/1.1" 200 None
+2018-04-12 12:20:29,905 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:29,997 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/topic/get_lord_reply_list?tid=6220991 HTTP/1.1" 200 None
+2018-04-12 12:20:30,003 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:30,193 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/detail?tid=6220991 HTTP/1.1" 200 None
+2018-04-12 12:20:30,410 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:30,542 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/topic/unread?tid=123 HTTP/1.1" 200 67
+2018-04-12 12:20:30,548 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:30,693 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/get_list_info?tids=118,120 HTTP/1.1" 200 None
+2018-04-12 12:20:30,699 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:30,860 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_topics/get_list HTTP/1.1" 200 None
+2018-04-12 12:20:30,866 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:31,040 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_replies/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 12:20:31,046 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:31,209 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_all/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 12:20:31,214 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:31,423 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_history/clean HTTP/1.1" 200 None
+2018-04-12 12:20:31,429 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:31,926 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/get_list?type=1&start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 12:20:31,933 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,109 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/relation_info HTTP/1.1" 200 None
+2018-04-12 12:20:32,117 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,252 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
+2018-04-12 12:20:32,258 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,423 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/topic/like HTTP/1.1" 200 None
+2018-04-12 12:20:32,429 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,587 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/delete HTTP/1.1" 200 None
+2018-04-12 12:20:32,594 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,750 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/banned HTTP/1.1" 200 None
+2018-04-12 12:20:32,758 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:32,891 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/report HTTP/1.1" 200 None
+2018-04-12 12:20:32,902 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:33,064 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/shield HTTP/1.1" 200 None
+2018-04-12 12:20:33,072 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:33,157 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/topic/see_all?tid=6275456 HTTP/1.1" 200 None
+2018-04-12 12:20:33,164 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:33,296 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115rc.com/api/1.0/ios/7.3.0/topic/get_home_xds HTTP/1.1" 200 None
+2018-04-12 12:20:33,302 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:33,392 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/ios/7.3.0/subject/info?sid=478 HTTP/1.1" 200 None
+2018-04-12 12:20:33,398 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:33,487 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/sub_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 12:20:33,495 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:33,907 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/topic_list?tag_name=%E6%AE%B5%E5%AD%90 HTTP/1.1" 200 None
+2018-04-12 12:20:33,916 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,004 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/custom_subject_list?start=0&limit=2 HTTP/1.1" 200 None
+2018-04-12 12:20:34,012 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,096 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/latest HTTP/1.1" 200 None
+2018-04-12 12:20:34,102 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,194 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-04-12 12:20:34,202 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,293 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-04-12 12:20:34,300 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,388 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/ios/1.0/subject/history_delete HTTP/1.1" 200 None
+2018-04-12 12:20:34,394 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,478 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/sync_user HTTP/1.1" 200 None
+2018-04-12 12:20:34,486 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,625 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115rc.com/api/1.0/web/1.0/user/topic_list?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 12:20:34,632 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,746 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/user/topic_list?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 12:20:34,752 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,840 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/ios/5.4.3/user/unread HTTP/1.1" 200 None
+2018-04-12 12:20:34,847 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:34,950 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/ios/5.4.3/user/user_info?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 12:20:34,957 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,069 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/banned HTTP/1.1" 200 None
+2018-04-12 12:20:35,077 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,165 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/unbanned HTTP/1.1" 200 None
+2018-04-12 12:20:35,173 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,291 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/report HTTP/1.1" 200 None
+2018-04-12 12:20:35,300 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:20:35,459 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/user/check_group HTTP/1.1" 200 None
+2018-04-12 12:20:35,466 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,600 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/forbid_post HTTP/1.1" 200 None
+2018-04-12 12:20:35,608 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,717 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/user/cancel_forbid_post HTTP/1.1" 200 None
+2018-04-12 12:20:35,724 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,809 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/user/whether_post?uid=340577662 HTTP/1.1" 200 None
+2018-04-12 12:20:35,816 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:35,932 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/user/remain HTTP/1.1" 200 None
+2018-04-12 12:20:35,938 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:36,027 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/user/fans?uid=110000010&read=0 HTTP/1.1" 200 None
+2018-04-12 12:20:36,034 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:36,124 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://home.115.com/api/1.0/web/1.0/tag/set_tags HTTP/1.1" 200 None
+2018-04-12 12:20:36,131 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:36,216 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/tag/get_tag HTTP/1.1" 200 None
+2018-04-12 12:20:36,222 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:36,308 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/tag/get_used_tags HTTP/1.1" 200 None
+2018-04-12 12:20:36,314 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:20:36,951 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115rc.com/api/1.0/web/1.0/search/topics?keyword=%E5%91%B5%E5%91%B5 HTTP/1.1" 200 None
+2018-04-12 12:20:36,954 Operation_Interface.py[line:59] ERROR (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x84",...\' for column \'result_interface\' at row 1')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x84",...\' for column \'result_interface\' at row 1')
+2018-04-12 12:21:27,023 Operation_Interface.py[line:59] ERROR (1205, 'Lock wait timeout exceeded; try restarting transaction')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')
+2018-04-12 12:22:18,092 Operation_Interface.py[line:59] ERROR (1205, 'Lock wait timeout exceeded; try restarting transaction')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')
+2018-04-12 12:22:18,094 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,192 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/search/tags?keyword=%E7%82%B8 HTTP/1.1" 200 None
+2018-04-12 12:22:18,199 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,294 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/search/tag_topics?tag=%E7%89%9B%E8%82%89 HTTP/1.1" 200 None
+2018-04-12 12:22:18,301 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,492 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/search/star_user?keyword=300&start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 12:22:18,499 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,620 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/search/user?keyword=1100000&start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 12:22:18,626 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,739 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/notices/gets?start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 12:22:18,746 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:18,827 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/notices/delete?tid=6275582&is_all=0tid=6275582&is_all=0 HTTP/1.1" 200 None
+2018-04-12 12:22:18,835 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:18,986 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/image/thumb HTTP/1.1" 200 None
+2018-04-12 12:22:18,994 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:19,084 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/user/statistics?month=201612 HTTP/1.1" 200 None
+2018-04-12 12:22:19,091 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:19,228 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/1.0/category/ls HTTP/1.1" 200 None
+2018-04-12 12:22:19,235 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:19,625 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/get_topics?start=0&limit=3 HTTP/1.1" 200 None
+2018-04-12 12:22:19,633 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:19,766 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/web/1.0/category/post_topic HTTP/1.1" 200 None
+2018-04-12 12:22:19,772 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:19,908 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/topic_categories?tid=2 HTTP/1.1" 200 None
+2018-04-12 12:22:19,914 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:20,307 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://home.115.com/api/1.0/web/1.0/category/home HTTP/1.1" 200 None
+2018-04-12 12:22:20,314 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 12:22:20,484 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
+2018-04-12 12:22:20,493 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:20,610 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=note_all&user_id=340577662 HTTP/1.1" 200 None
+2018-04-12 12:22:20,618 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:20,726 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=note_list&user_id=340577662 HTTP/1.1" 200 None
+2018-04-12 12:22:20,733 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:20,843 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=note_edit%20 HTTP/1.1" 200 None
+2018-04-12 12:22:20,850 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:20,939 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=note_edit%20 HTTP/1.1" 200 None
+2018-04-12 12:22:20,947 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,055 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=note_detail&user_id=340577662&nid=28717 HTTP/1.1" 200 None
+2018-04-12 12:22:21,063 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,168 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=note_detail&user_id=340577662&nid=28714 HTTP/1.1" 200 None
+2018-04-12 12:22:21,175 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,268 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=note_delete%20 HTTP/1.1" 200 None
+2018-04-12 12:22:21,275 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,366 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=note_delete%20 HTTP/1.1" 200 None
+2018-04-12 12:22:21,374 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,460 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=move HTTP/1.1" 200 None
+2018-04-12 12:22:21,468 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,560 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=finish%20 HTTP/1.1" 200 None
+2018-04-12 12:22:21,567 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,661 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=redo HTTP/1.1" 200 None
+2018-04-12 12:22:21,668 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,765 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=get_category%20 HTTP/1.1" 200 None
+2018-04-12 12:22:21,773 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,861 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=edit_cate HTTP/1.1" 200 None
+2018-04-12 12:22:21,869 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:21,958 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=edit_cate HTTP/1.1" 200 None
+2018-04-12 12:22:21,966 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,052 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=edit_cate HTTP/1.1" 200 None
+2018-04-12 12:22:22,059 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,155 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=del_cate%20 HTTP/1.1" 200 None
+2018-04-12 12:22:22,162 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,249 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=get_latest_tags%20&user_id=340577662 HTTP/1.1" 200 None
+2018-04-12 12:22:22,257 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,342 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/api/2.0/api.php?ac=search HTTP/1.1" 200 None
+2018-04-12 12:22:22,350 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,440 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/?ct=note&ac=set_tag HTTP/1.1" 200 None
+2018-04-12 12:22:22,446 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,540 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/?ct=note&ac=add_tags HTTP/1.1" 200 None
+2018-04-12 12:22:22,546 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,636 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/?ct=note&ac=del_tags HTTP/1.1" 200 None
+2018-04-12 12:22:22,641 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,740 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://yun.115.com/api/1.0/android/5.3.1/5/group/get_tag_color HTTP/1.1" 200 None
+2018-04-12 12:22:22,747 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,837 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/api/2.0/api.php?ac=upload_config&platform=1&user_id=340577662&up_type=0 HTTP/1.1" 200 None
+2018-04-12 12:22:22,844 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:22,929 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://note.115.com/?ct=note&ac=attaches_list&nid=28717 HTTP/1.1" 200 None
+2018-04-12 12:22:22,935 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:23,029 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "POST http://note.115.com/?ct=note&ac=edit_attaches HTTP/1.1" 200 None
+2018-04-12 12:22:23,034 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:23,137 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://web.api.115.com/files/download?pickcode=b63a6xc8isblw8wrm HTTP/1.1" 200 None
+2018-04-12 12:22:23,144 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): 127.0.0.1
+2018-04-12 12:22:23,267 connectionpool.py[line:396] DEBUG http://127.0.0.1:8899 "GET http://web.api.115.com/files/download?pickcode=cuaz18l0vh4mrdmn0 HTTP/1.1" 200 None
+2018-04-12 14:54:25,893 Compare_param.py[line:133] ERROR eval() arg 1 must be a string, bytes or code object
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Compare_param.py", line 110, in Compare_params_complete
+    list_params_to_compare=eval(self.params_to_compare)#数据库表unicode编码数据转换成员列
+TypeError: eval() arg 1 must be a string, bytes or code object
+2018-04-12 14:54:25,917 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:26,378 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/index?tid=0&option=0&limit=3 HTTP/1.1" 200 None
+2018-04-12 14:54:26,428 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-04-12 14:54:27,824 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/web/1.0/topic/get_reply_list?pid=1222942&get_reply_list=1 HTTP/1.1" 200 None
+2018-04-12 14:54:27,832 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:27,924 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/topic/get_lord_reply_list?tid=6220991 HTTP/1.1" 200 None
+2018-04-12 14:54:27,931 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:28,147 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/detail?tid=6220991 HTTP/1.1" 200 None
+2018-04-12 14:54:28,154 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:28,326 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/topic/unread?tid=123 HTTP/1.1" 200 67
+2018-04-12 14:54:28,334 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:28,509 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/topic/get_list_info?tids=118,120 HTTP/1.1" 200 None
+2018-04-12 14:54:28,515 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:28,711 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_topics/get_list HTTP/1.1" 200 None
+2018-04-12 14:54:28,718 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:28,914 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_replies/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 14:54:28,923 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:29,130 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_all/get_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 14:54:29,137 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:29,449 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_history/clean HTTP/1.1" 200 None
+2018-04-12 14:54:29,455 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:29,970 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/get_list?type=1&start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 14:54:29,977 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:30,184 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/my_star/relation_info HTTP/1.1" 200 None
+2018-04-12 14:54:30,192 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:30,376 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
+2018-04-12 14:54:30,384 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:30,602 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/topic/like HTTP/1.1" 200 None
+2018-04-12 14:54:30,608 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:30,808 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/delete HTTP/1.1" 200 None
+2018-04-12 14:54:30,814 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:31,012 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/banned HTTP/1.1" 200 None
+2018-04-12 14:54:31,020 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:31,186 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/report HTTP/1.1" 200 None
+2018-04-12 14:54:31,195 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:31,397 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/topic/shield HTTP/1.1" 200 None
+2018-04-12 14:54:31,406 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:31,495 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/topic/see_all?tid=6275456 HTTP/1.1" 200 None
+2018-04-12 14:54:31,501 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-04-12 14:54:32,285 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/ios/7.3.0/topic/get_home_xds HTTP/1.1" 200 None
+2018-04-12 14:54:32,292 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:32,373 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/ios/7.3.0/subject/info?sid=478 HTTP/1.1" 200 None
+2018-04-12 14:54:32,380 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:32,472 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/sub_list?start=0&limit=15 HTTP/1.1" 200 None
+2018-04-12 14:54:32,480 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:32,919 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/topic_list?tag_name=%E6%AE%B5%E5%AD%90 HTTP/1.1" 200 None
+2018-04-12 14:54:32,929 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,022 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/custom_subject_list?start=0&limit=2 HTTP/1.1" 200 None
+2018-04-12 14:54:33,029 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,116 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/latest HTTP/1.1" 200 None
+2018-04-12 14:54:33,123 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,223 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-04-12 14:54:33,230 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,314 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/subject/history HTTP/1.1" 200 None
+2018-04-12 14:54:33,321 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,406 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/ios/1.0/subject/history_delete HTTP/1.1" 200 None
+2018-04-12 14:54:33,413 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:33,501 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/sync_user HTTP/1.1" 200 None
+2018-04-12 14:54:33,509 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-04-12 14:54:34,291 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/web/1.0/user/topic_list?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 14:54:34,298 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,411 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/topic_list?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 14:54:34,418 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,509 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/ios/5.4.3/user/unread HTTP/1.1" 200 None
+2018-04-12 14:54:34,516 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,627 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/ios/5.4.3/user/user_info?uid=110000010 HTTP/1.1" 200 None
+2018-04-12 14:54:34,633 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,740 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/banned HTTP/1.1" 200 None
+2018-04-12 14:54:34,749 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,833 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/unbanned HTTP/1.1" 200 None
+2018-04-12 14:54:34,843 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:34,955 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/report HTTP/1.1" 200 None
+2018-04-12 14:54:34,964 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:54:35,158 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/5.4.3/user/check_group HTTP/1.1" 200 None
+2018-04-12 14:54:35,166 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,304 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/forbid_post HTTP/1.1" 200 None
+2018-04-12 14:54:35,310 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,419 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/user/cancel_forbid_post HTTP/1.1" 200 None
+2018-04-12 14:54:35,427 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,510 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/whether_post?uid=340577662 HTTP/1.1" 200 None
+2018-04-12 14:54:35,517 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,638 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/remain HTTP/1.1" 200 None
+2018-04-12 14:54:35,645 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,728 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/fans?uid=110000010&read=0 HTTP/1.1" 200 None
+2018-04-12 14:54:35,735 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,821 connectionpool.py[line:396] DEBUG http://home.115.com:80 "POST /api/1.0/web/1.0/tag/set_tags HTTP/1.1" 200 None
+2018-04-12 14:54:35,828 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:35,913 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/tag/get_tag HTTP/1.1" 200 None
+2018-04-12 14:54:35,921 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:54:36,008 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/tag/get_used_tags HTTP/1.1" 200 None
+2018-04-12 14:54:36,015 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115rc.com
+2018-04-12 14:54:37,407 connectionpool.py[line:396] DEBUG http://home.115rc.com:80 "GET /api/1.0/web/1.0/search/topics?keyword=%E5%91%B5%E5%91%B5 HTTP/1.1" 200 None
+2018-04-12 14:54:37,411 Operation_Interface.py[line:59] ERROR (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x84",...\' for column \'result_interface\' at row 1')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, 'Incorrect string value: \'\\xF0\\x9F\\x98\\x84",...\' for column \'result_interface\' at row 1')
+2018-04-12 14:55:28,489 Operation_Interface.py[line:59] ERROR (1205, 'Lock wait timeout exceeded; try restarting transaction')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')
+2018-04-12 14:56:19,533 Operation_Interface.py[line:59] ERROR (1205, 'Lock wait timeout exceeded; try restarting transaction')
+Traceback (most recent call last):
+  File "/Users/cuiwenhao/Auto_Api/Common/Operation_Interface.py", line 49, in op_sql
+    self.cur.execute(condition)  # 执行sql语句
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')
+2018-04-12 14:56:19,537 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:19,631 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/tags?keyword=%E7%82%B8 HTTP/1.1" 200 None
+2018-04-12 14:56:19,640 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:19,735 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/tag_topics?tag=%E7%89%9B%E8%82%89 HTTP/1.1" 200 None
+2018-04-12 14:56:19,745 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:19,848 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/star_user?keyword=300&start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 14:56:19,860 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:20,014 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/search/user?keyword=1100000&start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 14:56:20,022 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:20,138 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/notices/gets?start=0&limit=20 HTTP/1.1" 200 None
+2018-04-12 14:56:20,144 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:20,224 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/notices/delete?tid=6275582&is_all=0tid=6275582&is_all=0 HTTP/1.1" 200 None
+2018-04-12 14:56:20,237 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:20,418 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/1.0/image/thumb HTTP/1.1" 200 None
+2018-04-12 14:56:20,427 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:20,527 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/user/statistics?month=201612 HTTP/1.1" 200 None
+2018-04-12 14:56:20,534 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:20,708 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/ios/1.0/category/ls HTTP/1.1" 200 None
+2018-04-12 14:56:20,720 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:21,147 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/get_topics?start=0&limit=3 HTTP/1.1" 200 None
+2018-04-12 14:56:21,157 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:21,324 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/web/1.0/category/post_topic HTTP/1.1" 200 None
+2018-04-12 14:56:21,337 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:21,504 connectionpool.py[line:396] DEBUG https://home.115.com:443 "GET /api/1.0/web/1.0/category/topic_categories?tid=2 HTTP/1.1" 200 None
+2018-04-12 14:56:21,512 connectionpool.py[line:208] DEBUG Starting new HTTP connection (1): home.115.com
+2018-04-12 14:56:21,914 connectionpool.py[line:396] DEBUG http://home.115.com:80 "GET /api/1.0/web/1.0/category/home HTTP/1.1" 200 None
+2018-04-12 14:56:21,926 connectionpool.py[line:824] DEBUG Starting new HTTPS connection (1): home.115.com
+2018-04-12 14:56:22,114 connectionpool.py[line:396] DEBUG https://home.115.com:443 "POST /api/1.0/ios/5.4.3/my_star/star HTTP/1.1" 200 None
